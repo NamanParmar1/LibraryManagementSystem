@@ -1,0 +1,105 @@
+/* .addbook-container{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+} */
+input{
+    outline: black;
+}
+.addbutton{
+    display: flex;
+    justify-content: center;
+
+}
+
+  
+  .top {
+    flex: 6;
+  }
+  
+   .top,
+   .bottom {
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+  }
+  
+  .top h4 {
+    color: black;
+    font-size: 20px;
+  }
+  .left{
+    border-radius: 50px;
+    display:flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 40vw;
+    /* align-items: center; */
+  }
+  
+   .top .left {
+    flex: 1;
+    text-align: center;
+  }
+  
+    img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+   .top .right {
+    flex: 2;
+  }
+  
+   .top .right form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  
+   .top .right form .formInput {
+    width: 40%;
+  }
+  
+   .top .right form .formInput label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .top .right form .formInput label .icon {
+    cursor: pointer;
+  }
+  
+   .top .right form .formInput input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+   .top .right form button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

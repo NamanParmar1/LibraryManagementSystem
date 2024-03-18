@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("../../fonts/RolexLight.woff2");
+}
+li{
+  background: rgba(255, 255, 255, 0.2);border-radius: 6px;box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter: blur(5px);-webkit-backdrop-filter: blur(5px);border: 1px solid rgba(255, 255, 255, 0.3);text-decoration: none;
+}
+
+.sidebar {
+  flex: 1;
+  border-right:  0.5px solid rgb(231, 228, 228);
+  min-height: 100vh;
+  background-color: transparent;
+  --mdb-navbar-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--mdb-navbar-box-shadow);
+}
+
+.sidebar li.active {
+  background-color: #ece8ff;
+  color: black;
+}
+
+.sidebar .top {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right:  0.5px solid rgb(231, 228, 228);
+  
+}
+
+.sidebar .top .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6439ff;
+}
+
+.sidebar hr {
+  height: 0;
+  border: 0.5px solid rgb(230, 227, 227);
+}
+
+.sidebar .center {
+  padding-left: 10px;
+  justify-content: space-between;
+}
+
+.sidebar .center ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .center ul .title {
+  font-size: 10px;
+  font-weight: bold;
+  color: #999;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.sidebar .center ul li {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sidebar .center ul li:hover {
+  background-color: #ece8ff;
+}
+
+.sidebar .center ul li .icon {
+  font-size: 18px;
+  color: #7451f8;
+}
+
+.sidebar .center ul li span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888;
+  margin-left: 10px;
+}
+
+.sidebar .center ul li span.active {
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  margin-left: 10px;
+}
+
+
+
+.sidebar .bottom {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.sidebar .bottom .colorOption {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #7451f8;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.sidebar .bottom .colorOption:nth-child(1) {
+  background-color: whitesmoke;
+}
+
+.sidebar .bottom .colorOption:nth-child(2) {
+  background-color: #333;
+}
+
+.sidebar .bottom .colorOption:nth-child(3) {
+  background-color: darkblue;
+}
+
+  
+  .logout-button {
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: rgb(32, 177, 255);
+    border-radius: 50px;
+    color: #1f1f1f;
+    font-weight: 600;
+    margin-bottom: 5%; 
+    align-self:flex-end
+    
+  }
+  .logout-button:hover { transform: scale(1.25);}
+  
